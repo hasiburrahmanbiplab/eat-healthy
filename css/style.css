@@ -116,6 +116,12 @@ h1, h2, h3, h4, h5, h6{
 }
 .about-container .about-text{
     flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-text .inner-text{
+    max-width: 444px;
 }
 /* about part end */
 
