@@ -24,15 +24,20 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
 .main-heading{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     color: #575757;
     letter-spacing: -2%;
     line-height: 130%;
 }
 .skip{
-    background-image: linear-gradient(to right,#FBA24F, #FF1E1E);
+   color: #FBA24F;
 }
 .section-title{
     font-size: 40px;
@@ -43,7 +48,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 14px;
     font-weight: 400;
     color: #18191F;
-    line-height: 42px;
+    line-height: 33px;
     padding: 15px 0;
 }
 .recipie-title{
@@ -60,4 +65,31 @@ h1, h2, h3, h4, h5, h6{
     border: none;
     border-radius: 100px;
     box-shadow: rgba(252, 143, 73, 0.5);
+    text-transform: capitalize;
 }
+/* common css end */
+/* header part start */
+header{
+    padding: 100px 0;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+.banner-container .banner-text{
+    flex-basis: 100%;
+    max-width: 500px;
+    border: 1px solid blue;
+}
+.banner-container .banner-image{
+    flex-basis: 100%;
+    max-width: 500px;
+}
+.banner-image img{
+    width: 100%;
+    height: auto;
+}
+
+/* header part end */
