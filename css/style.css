@@ -119,3 +119,18 @@ h1, h2, h3, h4, h5, h6{
         row-gap: 50px;
     }
 }
+@media (min-width:768px) and (max-width:991.99px) {
+    .main-heading {
+        font-size: 40px;
+    }
+    .banner-container{
+        border: 1px solid blueviolet;
+    }
+    .banner-container .banner-text {
+       padding-top: 20px;
+    }
+    .banner-container .banner-image{
+        align-self: start;
+    }
+    
+}
