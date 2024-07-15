@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .about-container{
     display: flex;
+    border: 1px solid black;
 }
 .about-container .about-image{
     flex-basis: 100%;
@@ -123,6 +124,20 @@ h1, h2, h3, h4, h5, h6{
     max-width: 444px;
 }
 /* about part end */
+/* recipies part start */
+.recipies-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.recipies-text{
+    max-width:650px;
+    text-align: center;
+}
+
+/* recipies part end */
 
 /* responsive part start */
 @media screen and (max-width:576.99px){
@@ -193,6 +208,9 @@ h1, h2, h3, h4, h5, h6{
 @media (min-width:768px) and (max-width:991.99px) {
     .main-heading {
         font-size: 40px;
+    }
+    .section-title {
+        font-size: 35px;
     }
     .banner-container{
         border: 1px solid blueviolet;
