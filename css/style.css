@@ -2,3 +2,62 @@
 body{
     font-family: "Montserrat", sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+.main-heading{
+    font-size: 60px;
+    font-weight: 600;
+    color: #575757;
+    letter-spacing: -2%;
+    line-height: 130%;
+}
+.skip{
+    background-image: linear-gradient(to right,#FBA24F, #FF1E1E);
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #707070;
+}
+.section-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #18191F;
+    line-height: 42px;
+    padding: 15px 0;
+}
+.recipie-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #18191F;
+}
+.common-btn{
+    background-image: linear-gradient(to right,#FBA24F, #FF1E1E);
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 100px;
+    box-shadow: rgba(252, 143, 73, 0.5);
+}
