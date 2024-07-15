@@ -88,9 +88,36 @@ h1, h2, h3, h4, h5, h6{
     width: 100%;
     height: auto;
 }
-
 /* header part end */
-
+/* about part start */
+#about{
+    background-color: #FFFFFF;
+    margin: 100px 0;
+}
+.about-container{
+    display: flex;
+}
+.about-container .about-image{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(240, 240, 11);
+}
+.about-image .about-img{
+    max-width: 350px;
+}
+.about-image .about-img img{
+    width: 100%;
+}
+.about-image img{
+    width: 100%;
+    height: auto;
+}
+.about-container .about-text{
+    flex-basis: 100%;
+}
+/* about part end */
 
 /* responsive part start */
 @media screen and (max-width:576.99px){
