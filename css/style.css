@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 10px;
     border: 1px solid blue;
 }
 .main-heading{
@@ -69,9 +70,6 @@ h1, h2, h3, h4, h5, h6{
 }
 /* common css end */
 /* header part start */
-header{
-    padding: 100px 0;
-}
 .banner-container{
     display: flex;
     justify-content: center;
@@ -81,7 +79,6 @@ header{
 .banner-container .banner-text{
     flex-basis: 100%;
     max-width: 500px;
-    border: 1px solid blue;
 }
 .banner-container .banner-image{
     flex-basis: 100%;
@@ -93,3 +90,32 @@ header{
 }
 
 /* header part end */
+
+
+/* responsive part start */
+@media screen and (max-width:576.99px){
+    .main-heading {
+        font-size: 35px;
+    }
+    .banner-container{
+        justify-content: start;
+        align-items: start;
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+    .banner-container .banner-text {
+        flex-basis: 100%;
+        max-width: 387px;
+    }
+}
+@media (min-width:577px) and (max-width:767.99px){
+    .main-heading {
+        font-size: 45px;
+    }
+    .banner-container{
+        justify-content: start;
+        align-items: start;
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+}
