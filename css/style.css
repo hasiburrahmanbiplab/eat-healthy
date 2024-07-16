@@ -28,7 +28,6 @@ h1, h2, h3, h4, h5, h6{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 10px;
-    border: 1px solid blue;
 }
 .main-heading{
     font-size: 50px;
@@ -187,6 +186,25 @@ h1, h2, h3, h4, h5, h6{
     color: #18191F;
 }
 /* counter part end */
+/* footer content part start */
+.footer-content{
+    background-color: #18191F;
+    padding:  30px 5px;
+    text-align: center;
+}
+.footer-content h6{
+    font-size: 25px;
+    font-weight: 600;
+    color: #c9cad1;
+    padding: 10px 0;
+}
+.footer-content .text{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: aliceblue;
+}
+/* footer content part end */
 
 /* responsive part start */
 @media screen and (max-width:576.99px){
