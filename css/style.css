@@ -223,7 +223,10 @@ h1, h2, h3, h4, h5, h6{
     }
     /* recipies part end */
     /* counter part start */
- 
+    .counter-content{
+        flex-direction: column;
+        row-gap: 35px;
+    }
     /* counter part end */
 }
 @media (min-width:577px) and (max-width:767.99px){
@@ -267,6 +270,9 @@ h1, h2, h3, h4, h5, h6{
         column-gap: 20px;
     }
     /* recipies part end */
+    /* counter part start */
+   
+    /* counter part end */
 }
 @media (min-width:768px) and (max-width:991.99px) {
     .main-heading {
